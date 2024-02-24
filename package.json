@@ -1,0 +1,29 @@
+{
+  "name": "screenshoter",
+  "version": "1.0.0",
+  "description": "A service to return image of a url",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "nodemon server.ts"
+  },
+  "keywords": [
+    "puppeter",
+    "automation"
+  ],
+  "author": "akintola olalekan",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "express-rate-limit": "^6.7.0",
+    "express-winston": "^4.2.0",
+    "helmet": "^7.0.0",
+    "hpp": "^0.2.3",
+    "morgan": "^1.10.0",
+    "puppeteer": "^22.2.0",
+    "winston": "^3.8.2",
+    "xss-clean": "^0.1.1"
+  }
+}
